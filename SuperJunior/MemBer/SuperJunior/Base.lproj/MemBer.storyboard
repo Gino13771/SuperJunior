@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="44b-cp-1r9">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--團員-->
+        <scene sceneID="cku-qv-Wul">
+            <objects>
+                <viewController id="44b-cp-1r9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7q1-fW-R9p">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tgN-k9-Ohb">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aV3-ea-Zay">
+                                        <rect key="frame" x="0.0" y="0.0" width="3537" height="759"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="利特" translatesAutoresizingMaskIntoConstraints="NO" id="qB3-48-tvs">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="759" id="Gre-2d-OeB"/>
+                                                    <constraint firstAttribute="width" constant="393" id="cFP-TJ-AGS"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="厲旭" translatesAutoresizingMaskIntoConstraints="NO" id="M3g-KI-WDL">
+                                                <rect key="frame" x="393" y="0.0" width="393" height="759"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="始源" translatesAutoresizingMaskIntoConstraints="NO" id="jrG-eP-Rra">
+                                                <rect key="frame" x="786" y="0.0" width="393" height="759"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="希澈" translatesAutoresizingMaskIntoConstraints="NO" id="1Uw-6k-liZ">
+                                                <rect key="frame" x="1179" y="0.0" width="393" height="759"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="晟敏" translatesAutoresizingMaskIntoConstraints="NO" id="Gpc-72-Mvb">
+                                                <rect key="frame" x="1572" y="0.0" width="393" height="759"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="東海" translatesAutoresizingMaskIntoConstraints="NO" id="5df-l4-nxk">
+                                                <rect key="frame" x="1965" y="0.0" width="393" height="759"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="神童" translatesAutoresizingMaskIntoConstraints="NO" id="37E-1r-BM8">
+                                                <rect key="frame" x="2358" y="0.0" width="393" height="759"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="藝聲" translatesAutoresizingMaskIntoConstraints="NO" id="C7H-q0-JRP">
+                                                <rect key="frame" x="2751" y="0.0" width="393" height="759"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="銀赫" translatesAutoresizingMaskIntoConstraints="NO" id="OMY-Ti-ylv">
+                                                <rect key="frame" x="3144" y="0.0" width="393" height="759"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="qB3-48-tvs" secondAttribute="bottom" id="16U-qM-qdF"/>
+                                            <constraint firstItem="M3g-KI-WDL" firstAttribute="leading" secondItem="qB3-48-tvs" secondAttribute="trailing" id="A0w-D4-5gt"/>
+                                            <constraint firstItem="qB3-48-tvs" firstAttribute="leading" secondItem="aV3-ea-Zay" secondAttribute="leading" id="GBX-fh-h7Z"/>
+                                            <constraint firstItem="qB3-48-tvs" firstAttribute="top" secondItem="aV3-ea-Zay" secondAttribute="top" id="PoX-Jh-pD9"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qB3-48-tvs" firstAttribute="width" secondItem="6PM-m7-0w0" secondAttribute="width" id="7cB-0o-p0N"/>
+                                    <constraint firstItem="aV3-ea-Zay" firstAttribute="bottom" secondItem="onF-bo-4Wr" secondAttribute="bottom" id="7wU-At-7Jt"/>
+                                    <constraint firstItem="aV3-ea-Zay" firstAttribute="leading" secondItem="onF-bo-4Wr" secondAttribute="leading" id="F9E-R9-6m8"/>
+                                    <constraint firstItem="aV3-ea-Zay" firstAttribute="trailing" secondItem="onF-bo-4Wr" secondAttribute="trailing" id="kFc-mc-bWG"/>
+                                    <constraint firstItem="qB3-48-tvs" firstAttribute="height" secondItem="6PM-m7-0w0" secondAttribute="height" id="o8X-y7-rcm"/>
+                                    <constraint firstItem="aV3-ea-Zay" firstAttribute="top" secondItem="onF-bo-4Wr" secondAttribute="top" id="s8e-P9-qq3"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="onF-bo-4Wr"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="6PM-m7-0w0"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mN6-0Z-R8B"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.89411764705882346" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="tgN-k9-Ohb" firstAttribute="top" secondItem="mN6-0Z-R8B" secondAttribute="top" id="K6O-sS-AQG"/>
+                            <constraint firstItem="tgN-k9-Ohb" firstAttribute="leading" secondItem="mN6-0Z-R8B" secondAttribute="leading" id="q8V-v5-Eev"/>
+                            <constraint firstItem="tgN-k9-Ohb" firstAttribute="trailing" secondItem="mN6-0Z-R8B" secondAttribute="trailing" id="rsY-52-JFo"/>
+                            <constraint firstItem="tgN-k9-Ohb" firstAttribute="bottom" secondItem="mN6-0Z-R8B" secondAttribute="bottom" id="s3K-ff-fKv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="團員" image="person.fill" catalog="system" id="kaq-1U-NBo"/>
+                    <navigationItem key="navigationItem" id="OPb-Wm-Cf0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ST-PU-VBZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="2220"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="利特" width="518" height="770"/>
+        <image name="厲旭" width="468" height="692"/>
+        <image name="始源" width="474" height="684"/>
+        <image name="希澈" width="536" height="760"/>
+        <image name="晟敏" width="464" height="692"/>
+        <image name="東海" width="466" height="688"/>
+        <image name="神童" width="472" height="692"/>
+        <image name="藝聲" width="470" height="692"/>
+        <image name="銀赫" width="492" height="682"/>
+    </resources>
+</document>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hq8-Ks-2qV">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SuperJunior-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SuperJunior" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SUPER JUNIOR  (1)" translatesAutoresizingMaskIntoConstraints="NO" id="u4b-QE-D59">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="獻給                                    喜愛Super Junior                的妳" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3VJ-6e-PTx">
+                                <rect key="frame" x="100" y="199" width="193" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.63137257099999999" green="0.2941176593" blue="0.35686278339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.89411764705882346" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SuperJunior" id="TPp-qV-MoT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976.3358778625955" y="-27.464788732394368"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rmw-jo-4wg">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hq8-Ks-2qV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kmk-gd-bnK">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0KE-d2-VjA" kind="relationship" relationship="viewControllers" id="Yal-tQ-2p6"/>
+                        <segue destination="fUi-tb-K8h" kind="relationship" relationship="viewControllers" id="oAd-Hq-9jH"/>
+                        <segue destination="dli-yC-XXV" kind="relationship" relationship="viewControllers" id="Gf9-ap-JPK"/>
+                        <segue destination="44b-cp-1r9" kind="relationship" relationship="viewControllers" id="l1K-J3-Vgm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4U8-bx-deh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122.90076335877862" y="-27.464788732394368"/>
+        </scene>
+        <!--團員-->
+        <scene sceneID="cku-qv-Wul">
+            <objects>
+                <viewController id="44b-cp-1r9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7q1-fW-R9p">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tgN-k9-Ohb">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aV3-ea-Zay">
+                                        <rect key="frame" x="0.0" y="0.0" width="3537" height="710"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="利特" translatesAutoresizingMaskIntoConstraints="NO" id="qB3-48-tvs">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="厲旭" translatesAutoresizingMaskIntoConstraints="NO" id="M3g-KI-WDL">
+                                                <rect key="frame" x="393" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="始源" translatesAutoresizingMaskIntoConstraints="NO" id="jrG-eP-Rra">
+                                                <rect key="frame" x="786" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="希澈" translatesAutoresizingMaskIntoConstraints="NO" id="1Uw-6k-liZ">
+                                                <rect key="frame" x="1179" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="晟敏" translatesAutoresizingMaskIntoConstraints="NO" id="Gpc-72-Mvb">
+                                                <rect key="frame" x="1572" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="東海" translatesAutoresizingMaskIntoConstraints="NO" id="5df-l4-nxk">
+                                                <rect key="frame" x="1965" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="神童" translatesAutoresizingMaskIntoConstraints="NO" id="37E-1r-BM8">
+                                                <rect key="frame" x="2358" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="藝聲" translatesAutoresizingMaskIntoConstraints="NO" id="C7H-q0-JRP">
+                                                <rect key="frame" x="2751" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="銀赫" translatesAutoresizingMaskIntoConstraints="NO" id="OMY-Ti-ylv">
+                                                <rect key="frame" x="3144" y="0.0" width="393" height="710"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qB3-48-tvs" firstAttribute="width" secondItem="6PM-m7-0w0" secondAttribute="width" id="7cB-0o-p0N"/>
+                                    <constraint firstItem="aV3-ea-Zay" firstAttribute="bottom" secondItem="onF-bo-4Wr" secondAttribute="bottom" id="7wU-At-7Jt"/>
+                                    <constraint firstItem="aV3-ea-Zay" firstAttribute="leading" secondItem="onF-bo-4Wr" secondAttribute="leading" id="F9E-R9-6m8"/>
+                                    <constraint firstItem="aV3-ea-Zay" firstAttribute="trailing" secondItem="onF-bo-4Wr" secondAttribute="trailing" id="kFc-mc-bWG"/>
+                                    <constraint firstItem="qB3-48-tvs" firstAttribute="height" secondItem="6PM-m7-0w0" secondAttribute="height" id="o8X-y7-rcm"/>
+                                    <constraint firstItem="aV3-ea-Zay" firstAttribute="top" secondItem="onF-bo-4Wr" secondAttribute="top" id="s8e-P9-qq3"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="onF-bo-4Wr"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="6PM-m7-0w0"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mN6-0Z-R8B"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.89411764705882346" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="tgN-k9-Ohb" firstAttribute="top" secondItem="mN6-0Z-R8B" secondAttribute="top" id="K6O-sS-AQG"/>
+                            <constraint firstItem="tgN-k9-Ohb" firstAttribute="leading" secondItem="mN6-0Z-R8B" secondAttribute="leading" id="q8V-v5-Eev"/>
+                            <constraint firstItem="tgN-k9-Ohb" firstAttribute="trailing" secondItem="mN6-0Z-R8B" secondAttribute="trailing" id="rsY-52-JFo"/>
+                            <constraint firstItem="tgN-k9-Ohb" firstAttribute="bottom" secondItem="mN6-0Z-R8B" secondAttribute="bottom" id="s3K-ff-fKv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="團員" image="person.fill" catalog="system" id="kaq-1U-NBo"/>
+                    <navigationItem key="navigationItem" id="OPb-Wm-Cf0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ST-PU-VBZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="2220"/>
+        </scene>
+        <!--簡介-->
+        <scene sceneID="C10-0v-39Z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0KE-d2-VjA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="簡介" image="bookmark.fill" catalog="system" id="YI9-Iw-LuV"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hYn-ep-PsF">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ogi-ZO-XNt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qv9-nS-e6i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1049.6183206106871" y="-27.464788732394368"/>
+        </scene>
+        <!--UINavigationController-Qe3-yT-TOF-->
+        <scene sceneID="ncE-Wg-L0f">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PhotoAlbum" referencedIdentifier="UINavigationController-Qe3-yT-TOF" id="fUi-tb-K8h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Rxv-y8-F6H"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xt5-cE-nTF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122.90076335877862" y="713.38028169014092"/>
+        </scene>
+        <!--DetailViewController-->
+        <scene sceneID="0H0-FY-JR4">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="DetailViewController" storyboardName="PhotoAlbum" referencedIdentifier="DetailViewController" id="wUz-2K-C5A" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aqc-go-ozM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976" y="713"/>
+        </scene>
+        <!--Music-->
+        <scene sceneID="LEh-Sy-xB6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Music" id="dli-yC-XXV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Wa5-m9-Tea"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8j1-Tc-1lp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="1481"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SUPER JUNIOR  (1)" width="1020" height="1815"/>
+        <image name="bookmark.fill" catalog="system" width="110" height="128"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="利特" width="518" height="770"/>
+        <image name="厲旭" width="468" height="692"/>
+        <image name="始源" width="474" height="684"/>
+        <image name="希澈" width="536" height="760"/>
+        <image name="晟敏" width="464" height="692"/>
+        <image name="東海" width="466" height="688"/>
+        <image name="神童" width="472" height="692"/>
+        <image name="藝聲" width="470" height="692"/>
+        <image name="銀赫" width="492" height="682"/>
+    </resources>
+</document>

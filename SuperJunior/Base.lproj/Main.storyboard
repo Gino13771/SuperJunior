@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hq8-Ks-2qV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SuperJunior-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SuperJunior" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SUPER JUNIOR  (1)" translatesAutoresizingMaskIntoConstraints="NO" id="u4b-QE-D59">
+                                <rect key="frame" x="0.0" y="103" width="414" height="710"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="獻給                                    喜愛Super Junior                的妳" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3VJ-6e-PTx">
+                                <rect key="frame" x="100" y="199" width="193" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="Hyu-ZF-dnf"/>
+                                    <constraint firstAttribute="height" constant="161" id="e1V-Vt-6S5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.63137257099999999" green="0.2941176593" blue="0.35686278339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.89411764705882346" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="u4b-QE-D59" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="256-Ey-eZq"/>
+                            <constraint firstAttribute="trailing" secondItem="3VJ-6e-PTx" secondAttribute="trailing" constant="100" id="9RL-gl-tEY"/>
+                            <constraint firstItem="u4b-QE-D59" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="103" id="HvW-Mv-bOf"/>
+                            <constraint firstItem="3VJ-6e-PTx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="MIX-AD-Gcu"/>
+                            <constraint firstAttribute="trailing" secondItem="u4b-QE-D59" secondAttribute="trailing" id="U16-9l-2Oh"/>
+                            <constraint firstAttribute="bottom" secondItem="u4b-QE-D59" secondAttribute="bottom" constant="83" id="id3-aV-Erf"/>
+                            <constraint firstAttribute="bottom" secondItem="3VJ-6e-PTx" secondAttribute="bottom" constant="492" id="sIg-Bw-sOL"/>
+                            <constraint firstItem="3VJ-6e-PTx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="199" id="v3N-sH-YcB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SuperJunior" id="TPp-qV-MoT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976.3358778625955" y="-27.464788732394368"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rmw-jo-4wg">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hq8-Ks-2qV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kmk-gd-bnK">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <tabBarAppearance key="standardAppearance"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0KE-d2-VjA" kind="relationship" relationship="viewControllers" id="Yal-tQ-2p6"/>
+                        <segue destination="fUi-tb-K8h" kind="relationship" relationship="viewControllers" id="oAd-Hq-9jH"/>
+                        <segue destination="dli-yC-XXV" kind="relationship" relationship="viewControllers" id="Gf9-ap-JPK"/>
+                        <segue destination="Ks3-q8-ANt" kind="relationship" relationship="viewControllers" id="l1K-J3-Vgm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4U8-bx-deh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122.90076335877862" y="-27.464788732394368"/>
+        </scene>
+        <!--簡介-->
+        <scene sceneID="C10-0v-39Z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0KE-d2-VjA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="簡介" image="bookmark.fill" catalog="system" id="YI9-Iw-LuV"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hYn-ep-PsF">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ogi-ZO-XNt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qv9-nS-e6i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1049.6183206106871" y="-27.464788732394368"/>
+        </scene>
+        <!--UINavigationController-Qe3-yT-TOF-->
+        <scene sceneID="ncE-Wg-L0f">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PhotoAlbum" referencedIdentifier="UINavigationController-Qe3-yT-TOF" id="fUi-tb-K8h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Rxv-y8-F6H"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xt5-cE-nTF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122.90076335877862" y="713.38028169014092"/>
+        </scene>
+        <!--DetailViewController-->
+        <scene sceneID="0H0-FY-JR4">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="DetailViewController" storyboardName="PhotoAlbum" referencedIdentifier="DetailViewController" id="wUz-2K-C5A" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aqc-go-ozM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976" y="713"/>
+        </scene>
+        <!--Music-->
+        <scene sceneID="LEh-Sy-xB6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Music" id="dli-yC-XXV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Wa5-m9-Tea"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8j1-Tc-1lp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="1481"/>
+        </scene>
+        <!--MemBer-->
+        <scene sceneID="wyS-hP-Y3J">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MemBer" id="Ks3-q8-ANt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="bVb-79-BVa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BAI-q7-Ucs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="2220"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SUPER JUNIOR  (1)" width="1020" height="1815"/>
+        <image name="bookmark.fill" catalog="system" width="110" height="128"/>
+    </resources>
+</document>
