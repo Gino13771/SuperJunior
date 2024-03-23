@@ -1,0 +1,19 @@
+name: Xcode Build and Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: xcodebuild -workspace YourWorkspace.xcworkspace -scheme YourScheme build
+    - name: Run tests
+      run: xcodebuild -workspace YourWorkspace.xcworkspace -scheme YourScheme test
