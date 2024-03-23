@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: macOS-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Install Swift
+      run: |
+        wget https://swift.org/builds/swift-5.5.2-release/xcode/swift-5.5.2-RELEASE/swift-5.5.2-RELEASE-osx.pkg
+        sudo installer -pkg swift-5.5.2-RELEASE-osx.pkg -target /
+      
+    - name: Build
+      run: swift build
+      
+    - name: Test
+      run: swift test
