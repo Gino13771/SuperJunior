@@ -96,6 +96,8 @@ class MusicPlayerTableViewController: UIViewController {
         player.volume = sender.value
     }
     
+    ///
+    /// - Parme : percentage ;
     func makeProgressCircle(percentage:CGFloat){
         
         let degree = CGFloat.pi/180

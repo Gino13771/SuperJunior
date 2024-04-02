@@ -14,8 +14,7 @@ class PrinceCollectionViewController: UICollectionViewController {
        
        override func viewDidLoad() {
            super.viewDidLoad()
-           
-           // 在這裡初始化 Super 陣列
+         
            for i in 1...28 {
                let sjItem = Super(name: "SuperJunior", image: "p\(i)")
                superArray.append(sjItem)
