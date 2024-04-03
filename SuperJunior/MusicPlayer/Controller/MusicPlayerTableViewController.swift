@@ -33,6 +33,9 @@ class MusicPlayerTableViewController: UIViewController {
         musicimagebackView.layer.shadowColor = UIColor.black.cgColor
         musicimagebackView.layer.shadowOffset = CGSize(width: 5, height: 5)
         musicimagebackView.layer.shadowOpacity = 0.5
+        let centerX = musicimagebackView.bounds.width / 2  
+        let centerY = musicimagebackView.bounds.height / 2
+        musicimagebackView.center = CGPoint(x: centerX, y: centerY)
         
         makeProgressCircle(percentage: 0)
         
