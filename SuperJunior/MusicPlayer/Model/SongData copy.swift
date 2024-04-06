@@ -12,4 +12,3 @@ struct SongData{
     var songName:String
     var duration:Int
 }
-  
