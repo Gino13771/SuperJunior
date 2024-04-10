@@ -90,6 +90,7 @@
 			children = (
 				44746F7F2ACD631A00B4CCA8 /* SuperJunior */,
 				44746F7E2ACD631A00B4CCA8 /* Products */,
+				44F8F0942BC3FD4500AB689C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +198,13 @@
 				443ED5582AE04418003A27C1 /* Music */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		44F8F0942BC3FD4500AB689C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
