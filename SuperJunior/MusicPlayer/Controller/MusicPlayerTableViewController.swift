@@ -141,6 +141,7 @@ class MusicPlayerTableViewController: UIViewController {
         musicView.addSubview(remainLabel)
     }
     
+    
     func loadMusicInformation(Index:Int){
         musicImageView.image = UIImage(named: dataArray[Index].songName)
         musicbackimageView.image =  UIImage(named: dataArray[Index].songName)
