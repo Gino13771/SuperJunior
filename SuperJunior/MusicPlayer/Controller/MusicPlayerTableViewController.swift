@@ -83,6 +83,7 @@ class MusicPlayerTableViewController: UIViewController {
             executePlayOrPause(mode: .play, Index: dataIndex)
         }
     }
+    
     @IBAction func back(_ sender: UIButton) {
         if dataIndex > 0{
             dataIndex -= 1
